@@ -509,5 +509,14 @@
     }
   }
   
-  @media (min-width: 1254px) {
+   @media (max-width: 768px) {
+    .hero__card {
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .input2{
+      margin:auto ;
+    }
   }
